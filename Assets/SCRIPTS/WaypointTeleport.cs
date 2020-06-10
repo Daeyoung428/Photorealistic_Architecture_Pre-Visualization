@@ -23,9 +23,9 @@ public class WaypointTeleport : MonoBehaviour
     void Start()
     {
         currentPosition = 0;//ensure we are starting at the first position in the list
-        shouldTeleport = true;//move to the first position if not there already
+        shouldTeleport = false;//move to the first position if not there already
     }
-    /*
+
     private void OnGUI()
     {
         if (GUI.Button(new Rect(0, 70, 100, 50), "Previous"))
@@ -37,7 +37,7 @@ public class WaypointTeleport : MonoBehaviour
         {
             TeleportToNextWaypoint();
         }
-    }*/
+    }
 
 
     /// <summary>
