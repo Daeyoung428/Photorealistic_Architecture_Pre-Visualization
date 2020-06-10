@@ -85,7 +85,6 @@ public class WaypointTeleport : MonoBehaviour
         //HandleOVRInput();
     }
 
-    /*
     /// <summary>
     /// Handles input from the Oculus Controller.
     /// </summary>
@@ -103,7 +102,7 @@ public class WaypointTeleport : MonoBehaviour
             TeleportToPreviousWaypoint();
         }
     }
-    */
+   
     /// <summary>
     /// Handles the teleport. This method is ran over multiple frames to create a smooth transition between waypoint positions.
     /// </summary>
